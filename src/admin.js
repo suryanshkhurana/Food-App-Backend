@@ -35,10 +35,10 @@ const adminOptions = {
       resource: Product,
       options: {
         actions: {
-          edit: { isAccessible: false },
-          delete: { isAccessible: false },
-          new: { isAccessible: false },
-        }
+          edit: { isAccessible: true },
+          delete: { isAccessible: true },
+          new: { isAccessible: true },
+        }        
       }
     },
     {
